@@ -8,7 +8,6 @@ const FormOne = () => {
     })
     const handleChange=(ev)=>{
         const {name, value} = ev.target
-        // setForm(prev=>({...prev, name:ev.target.name,email:ev.target.email,message:ev.target.message}))
         setForm((prev)=>({
             ...prev,
             [name]:value
